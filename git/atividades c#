@@ -39,3 +39,39 @@ using System;
      }
  }
 3.
+ using System;
+ 
+ class Program
+ {
+     static void Main()
+     {
+         Console.WriteLine("informe sua nota:");
+         double nota = double.Parse(Console.ReadLine());
+         
+         if (nota >=7){
+             Console.WriteLine("Aprovado");
+         }else if (nota >=5){
+             Console.WriteLine("Recuperaçao");
+         }else {
+             Console.WriteLine("Reprovado");
+         }
+     }
+ }
+4.
+ using System;
+ 
+ class Program
+ {
+     static void Main()
+     {
+         Console.WriteLine("informe um numero:");
+         var numero = int.Parse(Console.ReadLine());
+         
+         if (numero % 2 ==0){
+            Console.WriteLine("Par");
+         }else {
+             Console.WriteLine("Impar");
+         }
+     }
+ }
+5.
