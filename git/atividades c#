@@ -20,3 +20,22 @@ using System;
  }
 
 2.
+ using System;
+ 
+ class Program
+ {
+     static void Main()
+     {
+         Console.WriteLine("informe um numero:");
+         int numero = int.Parse(Console.ReadLine());
+         
+         if (numero >0){
+             Console.WriteLine("Positivo");
+         }else if (numero <0){
+             Console.WriteLine("Negativo");
+         }else {
+             Console.WriteLine("Zero");
+         }
+     }
+ }
+3.
